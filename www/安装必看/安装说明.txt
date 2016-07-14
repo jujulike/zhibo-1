@@ -1,0 +1,28 @@
+﻿
+1：打开：网址/diguo/index.php 用户密码是admin   123456 登录进去配置数据库信息。
+
+2：用帝国还原恢复数据库。(http://www.htwl168.com/list.php?id=357  详细教程)
+
+3. 修改application\config\database.php
+	$db['default']['hostname'] = 'localhost';
+	$db['default']['username'] = '数据库帐号';
+	$db['default']['password'] = '数据库访问密码';
+	$db['default']['database'] = '数据库名';
+
+
+后台地址：
+index.php/admin/login
+admin 123456
+
+application\cache
+application\cache\classes
+application\cache\moni
+application\cache\room
+upload
+（上面这些文件夹要写入权限）WIN系统一搬不用。
+themes\v2\live/room.php模板文件
+
+
+
+程序演示地址:http://zhibo.htwl168.net/
+

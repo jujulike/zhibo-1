@@ -1,0 +1,47 @@
+<?php
+	$b_table="live_action_log,live_admin,live_admin_action,live_admin_user,live_advertising,live_article,live_attach_cate,live_attach_detail,live_category,live_chatcontent,live_chatcontent_history,live_commdata_region,live_handan,live_home_set,live_jsvote,live_livecontent,live_livecontent_history,live_livemaster,live_liveroom,live_login_log,live_master_q2a,live_notice,live_pages,live_role,live_service_reserver,live_system_config,live_user_sso,live_user_status,live_userinfo_base,live_userinfo_kind,live_vote";
+	$tb[live_action_log]=1;
+$tb[live_admin]=1;
+$tb[live_admin_action]=1;
+$tb[live_admin_user]=1;
+$tb[live_advertising]=1;
+$tb[live_article]=1;
+$tb[live_attach_cate]=1;
+$tb[live_attach_detail]=1;
+$tb[live_category]=1;
+$tb[live_chatcontent]=1;
+$tb[live_chatcontent_history]=1;
+$tb[live_commdata_region]=2;
+$tb[live_handan]=1;
+$tb[live_home_set]=1;
+$tb[live_jsvote]=1;
+$tb[live_livecontent]=1;
+$tb[live_livecontent_history]=1;
+$tb[live_livemaster]=1;
+$tb[live_liveroom]=1;
+$tb[live_login_log]=1;
+$tb[live_master_q2a]=1;
+$tb[live_notice]=1;
+$tb[live_pages]=1;
+$tb[live_role]=1;
+$tb[live_service_reserver]=1;
+$tb[live_system_config]=1;
+$tb[live_user_sso]=1;
+$tb[live_user_status]=1;
+$tb[live_userinfo_base]=1;
+$tb[live_userinfo_kind]=1;
+$tb[live_vote]=1;
+
+	$b_baktype=0;
+	$b_filesize=300;
+	$b_bakline=500;
+	$b_autoauf=1;
+	$b_dbname="zhibo";
+	$b_stru=1;
+	$b_strufour=0;
+	$b_dbchar="auto";
+	$b_beover=0;
+	$b_insertf="replace";
+	$b_autofield=",,";
+	$b_bakdatatype=0;
+	?>
